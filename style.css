@@ -1,0 +1,237 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	font-family: Microsoft Tai Le;
+}
+.StartingBar{
+	background-color: #316DC3;
+	color: white;
+	margin: auto;
+	height: 7vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 15.5px;
+}
+p{
+	margin-left: 50px;
+}
+.images{
+	margin-right: 50px;
+}
+img{
+	width: 15px;
+	height: 15px;
+	margin-right: 25px;
+}
+.button{
+	margin-left: 80px;
+	height: 27px;
+	justify-content: center;
+	display: flex;
+}
+a{
+	margin-right: 5px;
+	text-decoration: none;
+	color: green;
+	border: 1px solid green;
+	background-color: white;
+	font-size: 11.5px;
+	padding: 5px 10px;
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.navBar{
+	background-color: #F7F7F7;
+	height: 10vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	/*position: fixed;*/
+	width: 100%;
+}
+.logo{
+	width: 200px;
+	height: 8vh;
+	margin-left: 60px;
+}
+ul{
+display: inline-flex;
+list-style: none;
+font-size: 13px;
+font-weight: bold;
+margin-left: 262px;
+}
+ul li{
+	margin-right: 10px;
+	padding: 10px 15px;
+}
+ul li:hover{
+	color: white;
+	margin-right: 10px;
+	padding: 10px 15px;
+	background-color: #316DC3; 
+	border-radius: 25px;
+}
+ul li ul{
+	background-color: white;
+	color: black;
+	margin: 0px;
+	display: none;
+}
+ul li ul li{
+	float: none;
+}
+ul li:hover ul{
+	display: block;
+}
+.slider{
+	width: 100%;
+	height: 73vh;
+	/*margin-top: 69px;*/
+}
+.marquee{
+	font-size: 15px;
+	height: 25px;
+	width: 93%;
+	background-color: #316DC3; 
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container-fluid{
+	background-color: #F7F7F7;
+}
+h1{
+	text-align: center;
+    font-size: 35px;
+}
+.underline{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.underline img{
+	width: 40px;
+	height: 40px;
+	margin: 0px 15px;
+}
+.text{
+	width: 80%;
+	font-size: 15px;
+	line-height: 28px;
+	color: gray;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: 109px;
+}
+.calculations{
+	background-color: #2755E8;
+	height: 300px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.one{
+	width: 20%;
+	height: 290px;
+	color: white;
+	text-align: center;
+}
+.one img{
+	height: 40px;
+	width: 40px;
+	margin-left: 25px;
+	margin-top: 70px;
+}
+.performa{
+	width: 100%;
+	height: 211px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	/*border: 1px solid;*/
+}
+.performances{
+	line-height: 1.7;
+	width: 28%;
+	height: 180px;
+	text-align: center;
+	color: #316DC3;
+	box-shadow:  0px 8px 7px 0px rgba(0, 0, 0, 0.16);
+	background-color: white; 
+	margin: 0px 15px;
+}
+.missions{
+	background-color: white;
+	padding: 68px;
+}
+.missionsandupcomingprojects{
+	width: 66%;
+	height: 300px;
+	color: #316DC3;
+	float: left;
+	margin-right: 26px;
+}
+.box{
+	width: 48%;
+height: 80px;
+border: 1px solid lightgray;
+margin-top: 28px;
+background: #F7F7F7;
+float: left;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.upcomingEvents{
+	width: 31%;
+	height: 300px;
+}
+.upcomingEvents p{
+	margin-top: 28px;
+	margin-left: 0px;
+	width: 70%;
+	color: gray;
+}
+.images1{
+	background-color: white;
+	display: inline;
+	justify-content: center;
+	align-items: center;
+}
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: #24272F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.foot{
+	width: 30%;
+	height: 290px;
+	color: #bbb;
+	font-size: 14px;
+	line-height: 2;
+}
+.text-theme-colored{
+	color: #427900 !important;
+	margin-right: 3px;
+}
+
+.copyright{
+	width: 100%;
+	height: 50px;
+	background-color: #2F6DD8;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: white;
+	font-size: 12px;
+}
